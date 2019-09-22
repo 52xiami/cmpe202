@@ -1,5 +1,3 @@
-package CMPE202_assignment1;
-
 enum Coins_kind {quarter(25), dime(10), nickle(5);
   public int coin_value;
   Coins_kind(int v){
