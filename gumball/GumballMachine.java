@@ -35,6 +35,7 @@ enum Coins_kind {quarter(25), dime(10), nickle(5);
      void insertQuarter(int coin_v) {
          for (Coins_kind c : this.coin) {
              if (c.coin_value == coin_v) {
+                //calculate the total value of inserted coins
                  this.sum_value += coin_v;
                  accept_coin = true;
                  break;
